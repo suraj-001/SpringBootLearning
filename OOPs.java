@@ -12,6 +12,7 @@ public class OOPs {
     public static void main(String[] args) {
         int num1=4;
         int num2=5;
+        //created class reference and object. 
         Calculator calc = new Calculator();
         int result=calc.add(num1,num2);   
         System.out.println("sum of two numbers is " + result); 
